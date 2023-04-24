@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+  kakao-map:
+    build:
+      context: c:/javascript/kakao-map/
+      dockerfile: Dockerfile
+    ports:
+      - 80:80
